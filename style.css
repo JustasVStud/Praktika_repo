@@ -27,8 +27,11 @@ article {
     border: solid 1px black;
 }
 article figure {
-    background-color: red;
-    height: 200px;
+    height: auto;
+}
+article figure img{
+    width: 200px;
+    height: auto;
 }
 article p {
     height: 100px;
