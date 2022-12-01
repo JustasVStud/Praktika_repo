@@ -1,5 +1,6 @@
 .mas{border-radius: 5px;
     border-style:ridge;
+    border-color: hsl(240, 89%, 24%);
      text-align: center;
      width: 100%;
 }
@@ -27,8 +28,11 @@ article {
     border: solid 1px black;
 }
 article figure {
-    background-color: red;
-    height: 200px;
+    height: auto;
+}
+article figure img{
+    width: 200px;
+    height: auto;
 }
 article p {
     height: 100px;
@@ -50,6 +54,7 @@ article p {
     text-align: center;
     flex-basis: 200px;
     background-color: aqua;
+
   }
   nav{
     background-color: aliceblue;
