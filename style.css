@@ -1,5 +1,6 @@
 .mas{border-radius: 5px;
     border-style:ridge;
+    border-color: hsl(240, 89%, 24%);
      text-align: center;
      width: 100%;
 }
@@ -48,6 +49,7 @@ article p {
     padding: 60px;
     text-align: center;
     flex-basis: 200px;
+    
   }
   nav{
     background-color: aliceblue;
