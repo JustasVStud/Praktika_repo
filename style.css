@@ -1,0 +1,69 @@
+.mas{border-radius: 5px;
+    border-style:ridge;
+     text-align: center;
+     width: 100%;
+}
+main{
+    background-color: aquamarine;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 100px;
+    justify-items: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-style: italic;
+}
+article {
+    display: inline-block;
+    background-color: slateblue;
+    text-align: justify;
+    border: solid 1px black;
+}
+article figure {
+    background-color: red;
+    height: 200px;
+}
+article p {
+    height: 100px;
+    overflow: scroll;
+}
+
+
+  .news {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .A,
+  .B,
+  .C {
+    border: 1px solid black;
+    padding: 60px;
+    text-align: center;
+    flex-basis: 200px;
+  }
+  nav{
+    background-color: aliceblue;
+    padding: 10px;
+    display: grid;
+    
+    grid-template-columns: 50px auto 50px;
+    align-items: center;
+  }
+nav img{
+    width: 100%;
+    border-radius: 50%;
+    
+}
+.bar{
+
+    
+    border-radius: 50%;
+}
