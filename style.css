@@ -44,6 +44,7 @@ article p {
     display: flex;
     justify-content: center;
     gap: 20px;
+    background-color: aquamarine;
   }
   .A,
   .B,
@@ -52,7 +53,8 @@ article p {
     padding: 60px;
     text-align: center;
     flex-basis: 200px;
-    
+    background-color: aqua;
+
   }
   nav{
     background-color: aliceblue;
